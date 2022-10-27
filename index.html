@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="https://kit.fontawesome.com/5b4276dacf.js" crossorigin="anonymous"></script>
+    <title>Final Project</title>
+</head>
+<body>
+   <header>
+         <pre class="a"><i class="fa-solid fa-phone-volume"> (800)123-4567</i>             Mon-Sat: 7:00am-5:00pm            <i class="fa-solid fa-location-dot"><a href="https://www.google.com/maps/place/645+Shaw+Ave,+Fresno,+CA+93710/@36.8066567,-119.7781649,17z/data=!3m1!4b1!4m5!3m4!1s0x80945d70159ad80d:0x877f314bb3860512!8m2!3d36.8066567!4d-119.7759762" target="_blank"></i>645 East Shaw Avenue, Fresno, CA 93710</a>          
+         
+       </pre> 
+
+  
+  </header>
+   
+    <nav>
+<div class="zlogoimage1">
+      <a href=""><img src="Images/z logo.png" height="90px"></a></div>
+        <div class="mainbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+        </div>
+
+    </nav>
+ 
+
+    <div class="hero-image">
+      <div class="logo-image">
+       <div id="Zlogo"> <a href="zlogoimage"><img src="Images/z logo.png" height="400px"></a></div></div>
+      <div class="hero-text">
+        <h1 style="font-size:50px">Zappe Automotive </h1>
+        <p>Here for all of your automotive needs!</p>
+        
+      </div>
+    </div>
+      
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides">
+      <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+      <p class="author">- John Keats</p>
+    </div>
+    
+    <div class="mySlides">
+      <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+      <p class="author">- Ernest Hemingway</p>
+    </div>
+    
+    <div class="mySlides">
+      <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+      <p class="author">- Thomas A. Edison</p>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+<div class="contain">
+  <pre>     Our Mission</pre>
+  
+
+    <main class="home">
+      <section>
+        <div class="yes">
+      <h2>Reliability</h2>
+      <div class="overlay">
+      <div class="text">
+        <p>this about a cool car fdsafdsfssssss  sdddddddddddddddddddddddddddddddddddddd
+          dddddddddddddddddddddddddddddddddddddd  ddddddddddddddddddddddddddddddddddddddddd
+          ddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+          ddddddddddddddddddddddddddddddddddddddddddddddddd
+        </p>
+  </section>
+  
+  <article>
+    <div class="yes">
+      <h2>Trust</h2>
+      <div class="overlay">
+      <div class="text">
+        <p>this about a cool car fdsafdsfssssss  sdddddddddddddddddddddddddddddddddddddd
+          dddddddddddddddddddddddddddddddddddddd  ddddddddddddddddddddddddddddddddddddddddd
+          ddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+          ddddddddddddddddddddddddddddddddddddddddddddddddd
+        </p>
+  </article>
+  </main>
+ 
+      <aside>
+        <div class="yes">
+      <h2>Professional Standards</h2>
+      <div class="overlay">
+      <div class="text">
+        <p>this about a cool car fdsafdsfssssss  sdddddddddddddddddddddddddddddddddddddd
+          dddddddddddddddddddddddddddddddddddddd  ddddddddddddddddddddddddddddddddddddddddd
+          ddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+          ddddddddddddddddddddddddddddddddddddddddddddddddd
+        </p>
+      </aside>
+
+      <div class="yes">
+      <next>
+        <h2>Quality</h2>
+        <div class="overlay">
+
+        <div class="text">
+          <p>this about a cool car fdsafdsfssssss  sdddddddddddddddddddddddddddddddddddddd
+            dddddddddddddddddddddddddddddddddddddd  ddddddddddddddddddddddddddddddddddddddddd
+            ddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+            ddddddddddddddddddddddddddddddddddddddddddddddddd
+          </p>
+        </div>
+        </div>
+      </div>
+    </next>
+      
+</div>
+
+
+
+<footer>
+ 
+      
+    <div class="right">
+      
+        <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook"> 
+          </a></i>
+      
+          <a href="https://www.yelp.com/" target="blank">
+              <i class="fa-brands fa-yelp">
+           </a></i>
+  
+         <a href="https://www.instagram.com/" target="blank">
+              <i class="fa-brands fa-instagram">
+          </a></i>
+          
+      
+      </div>
+     
+   
+</footer>
+
+</body> 
+</html>
