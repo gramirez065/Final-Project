@@ -47,8 +47,10 @@ li a{
 }
 
 li a:hover{
-    background-color: rgba(20, 19, 10, 0.973);
+    background-color: black;
     color: rgba(250, 239, 239, 0.966);
+    
+
     
 }
 
@@ -493,6 +495,7 @@ float: left;
   position:relative;
   left: 770px;
   font-size: 2rem;
+  margin-top: 15px;
 
  
 }
